@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@media only screen and (max-width: 480px) {
+  .x-col-m-1-4 {
+    float: left;
+    margin-left: 2.05%;
+    width: 23.4625%; }
+
+  .x-col-m-2-4 {
+    float: left;
+    margin-left: 2.05%;
+    width: 48.975%; }
+
+  .x-col-m-3-4 {
+    float: left;
+    margin-left: 2.05%;
+    width: 74.4875%; }
+
+  .x-col-m-4-4 {
+    float: left;
+    margin-left: 2.05%;
+    width: 100%; } }
+@media only screen and (min-width: 481px) {
+  .x-col-1-10 {
+    float: left;
+    margin-left: 2.05%;
+    width: 8.155%; }
+
+  .x-move-1-10 {
+    left: 100%;
+    margin-left: -100% !important;
+    position: relative; }
+
+  .x-col-2-10 {
+    float: left;
+    margin-left: 2.05%;
+    width: 18.36%; }
+
+  .x-move-2-10 {
+    left: 100%;
+    margin-left: -89.795% !important;
+    position: relative; }
+
+  .x-col-3-10 {
+    float: left;
+    margin-left: 2.05%;
+    width: 28.565%; }
+
+  .x-move-3-10 {
+    left: 100%;
+    margin-left: -79.59% !important;
+    position: relative; }
+
+  .x-col-4-10 {
+    float: left;
+    margin-left: 2.05%;
+    width: 38.77%; }
+
+  .x-move-4-10 {
+    left: 100%;
+    margin-left: -69.385% !important;
+    position: relative; }
+
+  .x-col-5-10 {
+    float: left;
+    margin-left: 2.05%;
+    width: 48.975%; }
+
+  .x-move-5-10 {
+    left: 100%;
+    margin-left: -59.18% !important;
+    position: relative; }
+
+  .x-col-6-10 {
+    float: left;
+    margin-left: 2.05%;
+    width: 59.18%; }
+
+  .x-move-6-10 {
+    left: 100%;
+    margin-left: -48.975% !important;
+    position: relative; }
+
+  .x-col-7-10 {
+    float: left;
+    margin-left: 2.05%;
+    width: 69.385%; }
+
+  .x-move-7-10 {
+    left: 100%;
+    margin-left: -38.77% !important;
+    position: relative; }
+
+  .x-col-8-10 {
+    float: left;
+    margin-left: 2.05%;
+    width: 79.59%; }
+
+  .x-move-8-10 {
+    left: 100%;
+    margin-left: -28.565% !important;
+    position: relative; }
+
+  .x-col-9-10 {
+    float: left;
+    margin-left: 2.05%;
+    width: 89.795%; }
+
+  .x-move-9-10 {
+    left: 100%;
+    margin-left: -18.36% !important;
+    position: relative; }
+
+  .x-col-10-10 {
+    float: left;
+    margin-left: 2.05%;
+    width: 100%; }
+
+  .x-move-10-10 {
+    left: 100%;
+    margin-left: -8.155% !important;
+    position: relative; }
+
+  .x-col-1-12 {
+    float: left;
+    margin-left: 2.05%;
+    width: 6.45417%; }
+
+  .x-move-1-12 {
+    left: 100%;
+    margin-left: -100% !important;
+    position: relative; }
+
+  .x-col-2-12 {
+    float: left;
+    margin-left: 2.05%;
+    width: 14.95833%; }
+
+  .x-move-2-12 {
+    left: 100%;
+    margin-left: -91.49583% !important;
+    position: relative; }
+
+  .x-col-3-12 {
+    float: left;
+    margin-left: 2.05%;
+    width: 23.4625%; }
+
+  .x-move-3-12 {
+    left: 100%;
+    margin-left: -82.99167% !important;
+    position: relative; }
+
+  .x-col-4-12 {
+    float: left;
+    margin-left: 2.05%;
+    width: 31.96667%; }
+
+  .x-move-4-12 {
+    left: 100%;
+    margin-left: -74.4875% !important;
+    position: relative; }
+
+  .x-col-5-12 {
+    float: left;
+    margin-left: 2.05%;
+    width: 40.47083%; }
+
+  .x-move-5-12 {
+    left: 100%;
+    margin-left: -65.98333% !important;
+    position: relative; }
+
+  .x-col-6-12 {
+    float: left;
+    margin-left: 2.05%;
+    width: 48.975%; }
+
+  .x-move-6-12 {
+    left: 100%;
+    margin-left: -57.47917% !important;
+    position: relative; }
+
+  .x-col-7-12 {
+    float: left;
+    margin-left: 2.05%;
+    width: 57.47917%; }
+
+  .x-move-7-12 {
+    left: 100%;
+    margin-left: -48.975% !important;
+    position: relative; }
+
+  .x-col-8-12 {
+    float: left;
+    margin-left: 2.05%;
+    width: 65.98333%; }
+
+  .x-move-8-12 {
+    left: 100%;
+    margin-left: -40.47083% !important;
+    position: relative; }
+
+  .x-col-9-12 {
+    float: left;
+    margin-left: 2.05%;
+    width: 74.4875%; }
+
+  .x-move-9-12 {
+    left: 100%;
+    margin-left: -31.96667% !important;
+    position: relative; }
+
+  .x-col-10-12 {
+    float: left;
+    margin-left: 2.05%;
+    width: 82.99167%; }
+
+  .x-move-10-12 {
+    left: 100%;
+    margin-left: -23.4625% !important;
+    position: relative; }
+
+  .x-col-11-12 {
+    float: left;
+    margin-left: 2.05%;
+    width: 91.49583%; }
+
+  .x-move-11-12 {
+    left: 100%;
+    margin-left: -14.95833% !important;
+    position: relative; }
+
+  .x-col-12-12 {
+    float: left;
+    margin-left: 2.05%;
+    width: 100%; }
+
+  .x-move-12-12 {
+    left: 100%;
+    margin-left: -6.45417% !important;
+    position: relative; } }
+html {
+  font-size: 16px; }
+
+body {
+  font-family: Open Sans, Titillium Web, Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #333; }
+
+ul,
+p {
+  margin-bottom: 30px; }
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  margin-bottom: 15px; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 28px; }
+
+h3 {
+  font-size: 24px; }
+
+img {
+  width: 100%; }
+
+ul {
+  padding-left: 32px; }
+
+code {
+  background-color: #f7f7f7; }
+
+.-text-left {
+  text-align: left; }
+
+.-text-center {
+  text-align: center; }
+
+.-text-right {
+  text-align: right; }
+
+.container {
+  margin: 0 auto; }
+  @media only screen and (max-width: 480px) {
+    .container {
+      width: 100%; } }
+  @media only screen and (min-width: 481px) {
+    .container {
+      width: 800px; } }
+
+header {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 15px 0; }
+
+.hamburger-icon {
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+  height: 38px; }
+  .hamburger-icon svg {
+    display: inline-block;
+    width: 24px;
+    height: 18px;
+    fill: white; }
+
+.hero {
+  background-image: url(../images/1.jpg);
+  background-size: cover;
+  background-position: center top; }
+
+.hero__header {
+  text-align: center;
+  padding: 140px 0 140px 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  line-height: 1.4; }
+  .hero__header span {
+    display: block;
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #0088ff; }
+
+.coming-soon {
+  text-align: center;
+  padding: 80px 0; }
