@@ -9,8 +9,6 @@
     %meta{:content => "woutermuller.net", :name => "description"}/
     %meta{:content => "Wouter Muller", :name => "author"}/
 
-    %link{:href => "https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700", :rel => "stylesheet", :type => "text/css"}/
-
     %link{:href => "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800", :rel => "stylesheet", :type => "text/css"}/
 
     :javascript
@@ -25,11 +23,11 @@
   %body
     %header
       .container
-        %span.hamburger-icon
-          %svg{:space => "preserve", :version => "1.1", :viewbox => "0 0 24 18", :x => "0", :xmlns => "http://www.w3.org/2000/svg", :y => "0"}
-            %rect{:height => "2", :width => "24"}
-            %rect{:height => "2", :width => "24", :y => "8"}
-            %rect{:height => "2", :width => "24", :y => "16"}
+        %a{ href: "index.html"}
+          %span.home-icon
+            %svg#Layer_1{:space => "preserve", :style => "enable-background:new 0 0 512 512;", :version => "1.1", :viewbox => "0 0 512 512", :x => "0px", :xmlns => "http://www.w3.org/2000/svg", "xmlns:xlink" => "http://www.w3.org/1999/xlink", :y => "0px"}
+              %g
+                %polygon{:points => "448,288 256,64 64,288 112,288 112,448 208,448 208,320 304,320 304,448 400,448 400,288  "}
 
     .hero
       %h1.hero__header
@@ -39,4 +37,7 @@
         %br
         and CSS Architect
 
-    %h2.coming-soon Website coming soon...
+    .container
+      %h2.coming-soon
+        Latest blog entry:
+        %a{ href: "blog-1.html" } Why i prefer the SASS indented syntax over the SCSS syntax

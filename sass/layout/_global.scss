@@ -1,11 +1,11 @@
 .container {
-  margin: 0 auto;
-
   @include mobile {
+    padding: 0 30px;
     width: 100%;
   }
 
   @include tablet-and-desktop {
+    margin: 0 auto;
     width: 800px;
   }
 }

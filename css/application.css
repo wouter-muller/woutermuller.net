@@ -247,7 +247,7 @@ html {
   font-size: 16px; }
 
 body {
-  font-family: Open Sans, Titillium Web, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 1.6;
   color: #333; }
 
@@ -277,7 +277,13 @@ ul {
   padding-left: 32px; }
 
 code {
-  background-color: #f7f7f7; }
+  background-color: #f7f7f7;
+  display: block;
+  padding: .625rem;
+  margin-bottom: 20px; }
+
+a {
+  color: #08f; }
 
 .-text-left {
   text-align: left; }
@@ -288,14 +294,17 @@ code {
 .-text-right {
   text-align: right; }
 
-.container {
-  margin: 0 auto; }
-  @media only screen and (max-width: 480px) {
-    .container {
-      width: 100%; } }
-  @media only screen and (min-width: 481px) {
-    .container {
-      width: 800px; } }
+.vertical-spacing {
+  padding: 100px 0; }
+
+@media only screen and (max-width: 480px) {
+  .container {
+    padding: 0 30px;
+    width: 100%; } }
+@media only screen and (min-width: 481px) {
+  .container {
+    margin: 0 auto;
+    width: 800px; } }
 
 header {
   position: absolute;
@@ -315,6 +324,11 @@ header {
     height: 18px;
     fill: white; }
 
+.home-icon svg {
+  fill: white;
+  width: 36px;
+  height: 36px; }
+
 .hero {
   background-image: url(../images/1.jpg);
   background-size: cover;
@@ -330,7 +344,7 @@ header {
     display: block;
     font-size: 60px;
     margin-bottom: 25px;
-    color: #0088ff; }
+    color: #08f; }
 
 .coming-soon {
   text-align: center;
