@@ -1,0 +1,9 @@
+!!!
+%html{:lang => "en"}
+
+  %head
+    = Haml::Engine.new(File.read('haml-partials/_head.haml')).render
+
+  %body
+    :javascript
+      document.cookie = 'wouter=test;expires=Wed, May 9, 2018 at 12:10:33 AM'
