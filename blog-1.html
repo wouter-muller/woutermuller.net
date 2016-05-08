@@ -74,30 +74,13 @@
         <h2>Example of SASS vs. SCSS</h2>
         
         <p>Here are two code snippets that are identical (precompiled), one is written in SCSS and the other in SASS, so you can easily get a sense of the difference.</p>
-        
-        <p>SCSS:</p>
-        <pre><code>.div-name {
-         @extend %main-button-styles;
-         @include font-size-l();
-        
-         .nested-element {
-          line-height: 1.2;
-         }
-        
-         @include mobile {
-          line-height: 1.4;
-         }
-        }</code></pre>
-        <p>SASS</p>
-        <pre><code>.div-name
-          =main-button-styles
-          +font-size-l
-        
-          .nested-element
-            line-height: 1.2
-        
-          +mobile
-            line-height: 1.4</code></pre>
+        SCSS:
+        <br>
+        <img src='images/scss.png'>
+        <br>
+        SASS:
+        <br>
+        <img src='images/sass.png'>
         <p>As you can see, the SCSS version is 12 lines long, whereas the SASS version is just 9 lines long. In my opinion, the SASS version is much cleaner and easier to understand, which is essential if you care about a clean and readable code base.</p>
         
         <h2>But isn&#39;t SCSS compatible with plain CSS?</h2>

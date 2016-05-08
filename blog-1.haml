@@ -76,39 +76,19 @@
 
           Here are two code snippets that are identical (precompiled), one is written in SCSS and the other in SASS, so you can easily get a sense of the difference.
 
-          SCSS:
+        SCSS:
 
-        %pre
-          %code
-            :plain
-              .div-name {
-               @extend %main-button-styles;
-               @include font-size-l();
+        %br
 
-               .nested-element {
-                line-height: 1.2;
-               }
+        %img{ src: "images/scss.png" }
 
-               @include mobile {
-                line-height: 1.4;
-               }
-              }
+        %br
 
-        :markdown
-          SASS
+        SASS:
 
-        %pre
-          %code
-            :plain
-              .div-name
-                =main-button-styles
-                +font-size-l
+        %br
 
-                .nested-element
-                  line-height: 1.2
-
-                +mobile
-                  line-height: 1.4
+        %img{ src: "images/sass.png" }
 
 
         :markdown
