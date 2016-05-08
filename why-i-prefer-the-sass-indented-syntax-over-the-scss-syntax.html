@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link href='css/application.css' rel='stylesheet'>
+    <title>Wouter Muller - Senior Front-End Developer from Groningen, the Netherlands</title>
+    <meta charset='utf-8'>
+    <meta content='woutermuller.net' name='description'>
+    <meta content='Wouter Muller' name='author'>
+    <meta content='initial-scale=1.0, width=device-width' name='viewport'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-75467192-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class='container'>
+          <a href='/'>
+            <span class='home-icon'>
+              <svg id='Layer_1' space='preserve' style='enable-background:new 0 0 512 512;' version='1.1' viewbox='0 0 512 512' x='0px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' y='0px'>
+                <g>
+                  <polygon points='448,288 256,64 64,288 112,288 112,448 208,448 208,320 304,320 304,448 400,448 400,288  '></polygon>
+                </g>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <div class='hero'>
+      <h1 class='hero__header'>
+        <div class='container'>
+          Why i prefer the SASS indented syntax over the SCSS syntax
+        </div>
+      </h1>
+    </div>
+    <div class='container'>
+      <div class='vertical-spacing'>
+        <h1>Why i prefer the SASS indented syntax over the SCSS syntax</h1>
+        
+        <p>At almost every company i worked for, there has been a discussion about which SASS syntax to use. The older SASS syntax that is based on indentation, or the newer SCSS syntax, that is compatible with plain CSS. Both methods have their pro’s and cons and a lot of it is based on personal preference. However, I strongly feel that SASS is a better choice and here are my reasons why:</p>
+        
+        <h2>1. It looks cleaner and it is easier to read</h2>
+        
+        <p>Because SASS is based on indentation, it forces you to use proper indentation, which makes your code base very readable (VERY important imo). Especially when you work in a team with a lot of developers, this promotes the idea that the code looks as if it is written by one person, in other words, it is much easier to follow an agreed on coding style. Also, cause you don’t have to use curly brackets and semi-colons (more on that later on), there is a lot less clutter, which makes it easier to focus on the parts that really matter.</p>
+        
+        <h2>2. Developing is faster</h2>
+        
+        <h3>2a. No more curly brackets</h3>
+        
+        <p>This is a big one for me. The curly bracket even requires the use of the shift key in most, if not all, keyboard layouts. This may not seem like such a huge difference, but over time it certainly adds up to a significant amount of time. Also, personally it just feels weird to have to add a character that can be added automatically. This is one of things that preprocessors are made for, they can make your life easier.</p>
+        
+        <h3>2b. No more semi-colons</h3>
+        
+        <p>Most of the reasons that apply to the curly bracket reason apply here too. But have you ever written SCSS or CSS and forgotten to add a semi-colon? Especially with CSS, this can lead to some unexpected results, cause the rules below the missing semi-colon line won’t be seen by the browser anymore. And it is not immediately clear what is causing it. So why even bother? This is what a preprocessor can do for you.</p>
+        
+        <h3>2c. Much shorter way of calling mixins (and placeholders)</h3>
+        
+        <p>What a lot of people don’t know, is that SASS also has a very short way of calling mixins and placeholders. In SCSS, when you want to use a mixin, you have to write the following:
+        <code>&#x000A;@include mixin;</code>
+        However, with SASS, you can just use the + character instead, so you only have to write:
+        <code>&#x000A;+mixin</code>
+        This also goes for SASS placeholders, you can type = instead of @extend.</p>
+        
+        <h2>It plays well with HAML</h2>
+        
+        <p>The SASS syntax is indentation-based just like HAML, so it plays very well with HAML. It even looks a bit like HAML, which some people use as a reason against SASS, as they claim developers that have never used the SASS syntax have a hard time getting used to how it looks and how to use it. Personally i think even the average newcomer could get used to this within a matter of hours, surely not longer. And once you get used to it, you can write code much faster.</p>
+        
+        <h2>Example of SASS vs. SCSS</h2>
+        
+        <p>Here are two code snippets that are identical (precompiled), one is written in SCSS and the other in SASS, so you can easily get a sense of the difference.</p>
+        SCSS:
+        <br>
+        <img src='images/scss.png'>
+        <br>
+        SASS:
+        <br>
+        <img src='images/sass.png'>
+        <p>As you can see, the SCSS version is 12 lines long, whereas the SASS version is just 9 lines long. In my opinion, the SASS version is much cleaner and easier to understand, which is essential if you care about a clean and readable code base.</p>
+        
+        <h2>But isn&#39;t SCSS compatible with plain CSS?</h2>
+        
+        <p>Yes, one valid reason to choose for SCSS is that the syntax is compatible with plain CSS. Any valid CSS is automatically also valid SCSS. So let’s say you find a bit of CSS on a forum, then you can just copy/paste it into your own project without any problems. This is true, but I have never felt this to be a disadvantage cause there are great converters available (for example http://css2sass.herokuapp.com), and it doesn’t happen very often at all anymore that i have to copy/paste CSS from another source into my project. But for people who do this a lot, this may be a deal breaker.</p>
+        
+        <h2>TL;DR</h2>
+        
+        <p>The SASS syntax is shorter and easier to read, plus you can write code faster. If you haven&#39;t used it before and you are starting on a new project, I would encourage you to try it out for yourself. It may just be one of those things that seem a bit weird at first, but once you’ve gotten used to it, you never want to go back.</p>
+      </div>
+    </div>
+  </body>
+</html>
