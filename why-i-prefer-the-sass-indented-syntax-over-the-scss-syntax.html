@@ -9,11 +9,7 @@
     <meta content='initial-scale=1.0, width=device-width' name='viewport'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <script>
-      if (document.cookie.indexOf("wouter") >= 0) {
-        console.log("Wouter");
-      }
-      else {
-        console.log("user");
+      if (document.cookie.indexOf("wouter") == null) {
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -100,5 +96,21 @@
         <p>The SASS syntax is shorter and easier to read, plus you can write code faster. If you haven&#39;t used it before and you are starting on a new project, I would encourage you to try it out for yourself. It may just be one of those things that seem a bit weird at first, but once you’ve gotten used to it, you never want to go back.</p>
       </div>
     </div>
+    <script>
+      if (document.cookie.indexOf("wouter") == null) {
+        var _gauges = _gauges || [];
+        (function() {
+          var t   = document.createElement('script');
+          t.type  = 'text/javascript';
+          t.async = true;
+          t.id    = 'gauges-tracker';
+          t.setAttribute('data-site-id', '57305e3a4b2ffa2dc1004e70');
+          t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+          t.src = 'https://d36ee2fcip1434.cloudfront.net/track.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(t, s);
+        })();
+      }
+    </script>
   </body>
 </html>
