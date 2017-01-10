@@ -9,7 +9,8 @@ body {
 }
 
 ul,
-p {
+p,
+table {
   margin-bottom: 30px;
 }
 
@@ -49,4 +50,12 @@ code {
 
 a {
   color: #08f;
+}
+
+td {
+  vertical-align: top;
+}
+
+td + td {
+  padding-left: 20px;
 }

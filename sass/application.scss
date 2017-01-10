@@ -8,7 +8,8 @@
 
 @import "components/helpers";
 
-@import "layout/global";
-@import "layout/header";
+@import "utilities/*";
 
-@import "views/index";
+@import "layout/*";
+
+@import "views/*";
