@@ -118,7 +118,6 @@
                 %h3 HAVO
                 %p Wessel Gansfoort College, Groningen, the Netherlands
 
-
         %h2 LANGUAGES
 
         %ul
@@ -126,3 +125,4 @@
           %li English (fluent spoken and written)
           %li German (fluent spoken and written)
 
+    = Haml::Engine.new(File.read('haml-partials/_end-of-body.haml')).render

@@ -26,3 +26,5 @@
 
         %h2
           %a{ href: "cv" } Take a look at my CV
+
+    = Haml::Engine.new(File.read('haml-partials/_end-of-body.haml')).render
