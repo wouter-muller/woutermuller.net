@@ -247,7 +247,7 @@ html {
   font-size: 16px; }
 
 body {
-  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: system-ui, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 1.6;
   color: #333; }
 
